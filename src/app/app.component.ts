@@ -12,4 +12,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   name = 'my-app';
+  userName='';
+
+  resetUsername(){
+    this.userName='';
+  }
 }
