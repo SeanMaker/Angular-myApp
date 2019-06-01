@@ -12,7 +12,8 @@ export class ServersComponent implements OnInit {
   serverCreationState='No server was create!';
   serverName='Testserver';
   serverCreated=false;
-  servers=['Testserver','Testserver 2']
+  servers=['Testserver','Testserver 2'];
+
 
 
 
@@ -35,7 +36,6 @@ export class ServersComponent implements OnInit {
   onUpdateServerName(event:any){
     this.serverName=(<HTMLInputElement>event.target).value;
   }
-
 
 
 }

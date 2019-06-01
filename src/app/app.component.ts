@@ -8,13 +8,24 @@ import { Component } from '@angular/core';
   h3{
     color: aqua;
   }
+  .whiteText{
+    color: #fff;
+  }  
   `],
 })
 export class AppComponent {
   name = 'my-app';
   userName='';
+  showSecret=false;
+  log=[];
 
   resetUsername(){
     this.userName='';
+  }
+
+  onToggleDetails(){
+    this.showSecret=!this.showSecret;
+    // this.log.push(this.log.length+1);
+    this.log.push(new Date());
   }
 }
