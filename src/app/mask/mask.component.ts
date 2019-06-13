@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mask.component.css']
 })
 export class MaskComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit() {
