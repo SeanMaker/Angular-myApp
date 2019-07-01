@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class CockpitComponent implements OnInit {
   newServerName = '';
   newServerContent = '';
+  serverElements = [];
   constructor() { }
 
   ngOnInit() {
@@ -27,5 +28,5 @@ export class CockpitComponent implements OnInit {
       name: this.newServerName,
       content: this.newServerContent
     })
-
+  }
 }

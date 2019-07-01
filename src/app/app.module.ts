@@ -20,7 +20,8 @@ import { ServerElementComponent } from './server-element/server-element.componen
     WarningAlertComponent,
     SuccessAlertComponent,
     CockpitComponent,
-    ServerElementComponent
+    ServerElementComponent,
+
   ],
   imports: [
     BrowserModule,
